@@ -54,7 +54,8 @@ function getLinkColor(edge: GraphEdge): string {
 }
 
 export default function Graph3D() {
-  const fgRef = useRef<{ cameraPosition: (pos: object, lookAt: object, ms: number) => void }>();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const fgRef = useRef<any>(null);
   const { graph, setSelectedNode, setHoveredNode } = useIntelStore();
 
   // structuredClone: Deep-copy to avoid both Redux-style frozen objects AND D3 mutation errors
@@ -112,7 +113,7 @@ export default function Graph3D() {
   return (
     <div className="w-full h-full">
       <ForceGraph3D
-        ref={fgRef as React.Ref<unknown>}
+        ref={fgRef}
         graphData={graphData}
         nodeId="id"
         nodeLabel={(node: object) => {
