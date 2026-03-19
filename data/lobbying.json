@@ -1,0 +1,44 @@
+[
+  {
+    "id": "aipac", "type": "organization", "label": "AIPAC",
+    "category": "lobby",
+    "info": "American Israel Public Affairs Committee. Primary force for US-Israel military aid. Spends $100M+ per election cycle via bundled contributions and direct PAC spending.",
+    "source": "https://www.opensecrets.org/orgs/american-israel-public-affairs-cmte/summary?id=D000000877"
+  },
+  {
+    "id": "udp", "type": "organization", "label": "United Democracy Project (AIPAC Super PAC)",
+    "category": "pac",
+    "info": "AIPAC's Super PAC arm. Spent $25M+ in the 2022 primaries alone. Directly funds campaigns to ensure a pro-Israel Senate majority.",
+    "source": "https://www.opensecrets.org/pacs/lookup2.php?strID=C00793949"
+  },
+  {
+    "id": "jinsa", "type": "organization", "label": "JINSA",
+    "category": "think-tank",
+    "info": "Jewish Institute for National Security of America. Integrates US defense policy with Israeli strategic interests. Key pipeline for generals and admirals to visit Israel.",
+    "source": "https://jinsa.org/about-jinsa/"
+  },
+  {
+    "id": "cufi", "type": "organization", "label": "CUFI",
+    "category": "lobby",
+    "info": "Christians United for Israel. 10M+ member evangelical lobby. Critical vote-mobilization tool for Israel aid legislation.",
+    "source": "https://cufi.org/about/"
+  },
+  {
+    "id": "api-lobby", "type": "organization", "label": "American Petroleum Institute",
+    "category": "lobby",
+    "info": "The oil industry's main lobbying body. Spends $8M+/year in direct lobbying. Coordinates joint campaigns with ExxonMobil, Chevron.",
+    "source": "https://www.opensecrets.org/orgs/american-petroleum-institute/lobby?id=D000019951"
+  },
+  {
+    "id": "aia-lobby", "type": "organization", "label": "Aerospace Industries Association",
+    "category": "lobby",
+    "info": "Defense industry's main lobbying trade group. Represents Lockheed, Boeing, Northrop, RTX. $15M+ annual lobbying spend.",
+    "source": "https://www.opensecrets.org/lobby/clientsum.php?id=D000000066"
+  },
+  {
+    "id": "pnac", "type": "organization", "label": "PNAC (Project for New American Century)",
+    "category": "think-tank",
+    "info": "Neoconservative think tank (1997-2006). Published 'Rebuilding America's Defenses' calling for regime change in Iraq years pre-9/11. Key members became Bush administration officials.",
+    "source": "https://en.wikipedia.org/wiki/Project_for_the_New_American_Century"
+  }
+]

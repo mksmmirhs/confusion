@@ -1,0 +1,78 @@
+[
+  {
+    "id": "war-afghanistan-2001",
+    "type": "event",
+    "label": "War in Afghanistan (2001–2021)",
+    "startYear": 2001,
+    "endYear": 2021,
+    "info": "Authorized by AUMF S.J.Res. 23 (Sept 18, 2001). Passed Senate 98-0. Cost: $2.3 trillion. 2,448 US military deaths. Last major US combat troops left Aug 2021.",
+    "source": "https://www.congress.gov/bill/107th-congress/senate-joint-resolution/23"
+  },
+  {
+    "id": "war-iraq-2003",
+    "type": "event",
+    "label": "Iraq War (2003–2011)",
+    "startYear": 2003,
+    "endYear": 2011,
+    "info": "Authorized by AUMF H.J.Res. 114 (Oct 11, 2002). Passed Senate 77-23. Cost: $2.2 trillion total. 4,431 US military deaths. Based on false WMD claims.",
+    "source": "https://www.congress.gov/bill/107th-congress/house-joint-resolution/114"
+  },
+  {
+    "id": "pnac-blueprint-1997",
+    "type": "event",
+    "label": "PNAC Blueprint (1997)",
+    "startYear": 1997,
+    "endYear": 2006,
+    "info": "Project for the New American Century. Founded by William Kristol and Robert Kagan. 'Rebuilding America's Defenses' (2000) called for regime change in Iraq years before 9/11. Members later served in Bush administration.",
+    "source": "https://newamericancentury.org/RebuildingAmericasDefenses.pdf"
+  },
+  {
+    "id": "war-libya-2011",
+    "type": "event",
+    "label": "Libya Intervention (2011)",
+    "startYear": 2011,
+    "endYear": 2019,
+    "info": "US-led NATO intervention under Obama. No formal AUMF passed. Cost: ~$1B. Destabilized region led to ongoing civil war.",
+    "source": "https://responsiblestatecraft.org/libya-intervention"
+  },
+  {
+    "id": "war-syria-2014",
+    "type": "event",
+    "label": "Syria Conflict (2014–Present)",
+    "startYear": 2014,
+    "info": "US involvement including strikes under 2001 AUMF authorization. ISIS campaign + Turkish border tensions. Ongoing as of 2026.",
+    "source": "https://congress.gov/congressional-record"
+  },
+  {
+    "id": "ukraine-aid-2022",
+    "type": "event",
+    "label": "Ukraine Aid (2022–Present)",
+    "startYear": 2022,
+    "info": "US military aid: $65B+ from 2022-2025. Massive windfall for Lockheed Martin, Raytheon (HIMARS, Patriot, ATACMS). Senate passed Ukraine supplemental 79-18 (April 2024).",
+    "source": "https://quincyinst.org/report/pentagon-contractors-ukraine"
+  },
+  {
+    "id": "israel-aid-2023",
+    "type": "event",
+    "label": "Gaza & Israel Aid (2023–Present)",
+    "startYear": 2023,
+    "info": "US military aid to Israel: $18B+ in year after Oct 7, 2023. Annual baseline: $3.8B. Weapons: JDAM bombs (Boeing), artillery, iron dome interceptors (RTX). Senate passed $26B package April 2024.",
+    "source": "https://quincyinst.org/report/pentagon-contractors-israel"
+  },
+  {
+    "id": "aumf-2001",
+    "type": "event",
+    "label": "AUMF 2001 (Afghanistan)",
+    "startYear": 2001,
+    "info": "Authorization for Use of Military Force. S.J.Res. 23. Passed 98-0. Still legally in effect as of 2026, used to justify anti-ISIS operations in Syria.",
+    "source": "https://www.congress.gov/bill/107th-congress/senate-joint-resolution/23"
+  },
+  {
+    "id": "aumf-2002",
+    "type": "event",
+    "label": "AUMF 2002 (Iraq)",
+    "startYear": 2002,
+    "info": "Authorization for Use of Military Force Against Iraq. H.J.Res. 114. Passed Senate 77-23. Repealed by Senate in 2024. The foundational 'Hawk' vote.",
+    "source": "https://www.congress.gov/bill/107th-congress/house-joint-resolution/114"
+  }
+]

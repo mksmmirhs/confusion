@@ -1,0 +1,79 @@
+[
+  {
+    "id": "lockheed-martin", "type": "company", "label": "Lockheed Martin",
+    "category": "defense",
+    "revenue": "$65.98B (2023)",
+    "info": "World's largest defense contractor. Primary F-35 maker. Received $75B in Pentagon contracts in 2020 alone. HIMARS producer for Ukraine. Iron Dome fire-control partner.",
+    "source": "https://www.lockheedmartin.com/en-us/news/features/2023/2023-annual-report.html"
+  },
+  {
+    "id": "boeing-defense", "type": "company", "label": "Boeing (Defense)",
+    "category": "defense",
+    "revenue": "$22.1B defense (2023)",
+    "info": "Supplies JDAM precision bombs and F-15 fighters to Israel. Major Ukraine contractor (ScanEagle drones, tankers). Top-5 Pentagon contractor.",
+    "source": "https://www.boeing.com/company/key-facts"
+  },
+  {
+    "id": "rtx-raytheon", "type": "company", "label": "RTX (Raytheon)",
+    "category": "defense",
+    "revenue": "$68.9B (2023)",
+    "info": "Manufacturer of Iron Dome interceptors, Patriot missiles, ATACMS. Connecticut-based. Massive lobbying presence in DC ($15M/year). Ukraine's key Patriot supplier.",
+    "source": "https://www.rtx.com/news/news-center/2023/01/24/raytheon-missiles-defense"
+  },
+  {
+    "id": "northrop-grumman", "type": "company", "label": "Northrop Grumman",
+    "category": "defense",
+    "revenue": "$39.3B (2023)",
+    "info": "B-21 Raider bomber. Global security and space defense systems. Lobbied Congress for $116M in FY2024 contracts.",
+    "source": "https://www.northropgrumman.com/about/financials"
+  },
+  {
+    "id": "general-dynamics", "type": "company", "label": "General Dynamics",
+    "category": "defense",
+    "revenue": "$42.3B (2023)",
+    "info": "M1 Abrams tank, Stryker. 25% revenue surge from Ukraine armor demand in 2023. Gulfstream jet subsidiary.",
+    "source": "https://www.gd.com/overview/financials"
+  },
+  {
+    "id": "exxonmobil", "type": "company", "label": "ExxonMobil",
+    "category": "oil",
+    "revenue": "$398.7B (2022 peak)",
+    "info": "World's largest publicly-traded oil company. Largest corporate donor to Senate Republicans via PAC and bundled contributions. Top recipient: Ted Cruz ($445k+). Integrated in US Middle East security umbrella.",
+    "source": "https://www.opensecrets.org/orgs/exxon-mobil/summary?id=D000000023"
+  },
+  {
+    "id": "chevron", "type": "company", "label": "Chevron",
+    "category": "oil",
+    "revenue": "$235B (2022)",
+    "info": "Global oil giant with deep strategic interest in the Middle East. Top Cornyn donor in TX. BlackRock top shareholder.",
+    "source": "https://www.opensecrets.org/orgs/chevron/summary?id=D000000466"
+  },
+  {
+    "id": "conocophillips", "type": "company", "label": "ConocoPhillips",
+    "category": "oil",
+    "revenue": "$58.6B (2022)",
+    "info": "Significant energy lobby player focused on resource security and extraction. Key Oklahoma donor (Lankford, Mullin).",
+    "source": "https://www.opensecrets.org/orgs/conocophillips/summary?id=D000000466"
+  },
+  {
+    "id": "blackrock", "type": "company", "label": "BlackRock",
+    "category": "finance",
+    "revenue": "AUM: $10T+ (2024)",
+    "info": "World's largest asset manager. Top shareholder in ALL major US defense contractors and oil majors. Significant political influence through institutional vote power.",
+    "source": "https://www.blackrock.com/corporate/about-us"
+  },
+  {
+    "id": "vanguard", "type": "company", "label": "Vanguard",
+    "category": "finance",
+    "revenue": "AUM: $8.1T (2024)",
+    "info": "Major shareholder in the US industrial base including Lockheed Martin, Boeing, ExxonMobil. Significant influence over corporate political spending.",
+    "source": "https://about.vanguard.com/investment-stewardship"
+  },
+  {
+    "id": "state-street", "type": "company", "label": "State Street",
+    "category": "finance",
+    "revenue": "AUM: $3.9T (2024)",
+    "info": "Institutional giant. Holdings in aerospace, defense, and Israeli sovereign debt. Third member of the 'Big Three' passive investment giants.",
+    "source": "https://www.ssga.com/us/en/intermediary/about-us"
+  }
+]

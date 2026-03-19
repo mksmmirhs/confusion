@@ -1,0 +1,298 @@
+[
+  {
+    "id": "chuck-schumer", "type": "senator", "label": "Chuck Schumer",
+    "party": "democrat", "state": "NY", "religion": "Jewish",
+    "committees": ["Judiciary", "Finance", "Rules"],
+    "born": 1950,
+    "info": "Senate Majority Leader (current). Voted YEA on 2002 Iraq AUMF. Top AIPAC recipient over 30-year career.",
+    "source": "https://www.congress.gov/member/charles-schumer/S000148"
+  },
+  {
+    "id": "mitch-mcconnell", "type": "senator", "label": "Mitch McConnell",
+    "party": "republican", "state": "KY", "religion": "Baptist",
+    "committees": ["Appropriations", "Rules", "Agriculture"],
+    "born": 1942,
+    "info": "Senate Minority Leader. Voted YEA on both 2001 Afghanistan and 2002 Iraq AUMFs. Architect of the defense-industrial establishment.",
+    "source": "https://www.congress.gov/member/mitch-mcconnell/M000355"
+  },
+  {
+    "id": "bernie-sanders", "type": "senator", "label": "Bernie Sanders",
+    "party": "independent", "state": "VT", "religion": "Jewish",
+    "committees": ["Budget", "Veterans Affairs", "Environment"],
+    "born": 1941,
+    "info": "Caucuses with Democrats. Voted NAY on 2002 Iraq AUMF. Vocal critic of military-industrial spending and Big Three financial power.",
+    "source": "https://www.congress.gov/member/bernard-sanders/S000033"
+  },
+  {
+    "id": "elizabeth-warren", "type": "senator", "label": "Elizabeth Warren",
+    "party": "democrat", "state": "MA", "religion": "Methodist",
+    "committees": ["Banking", "Armed Services", "Finance"],
+    "born": 1949,
+    "info": "Critic of Big Three financial consolidation. Ranked among top scholars of bankruptcy law.",
+    "source": "https://www.congress.gov/member/elizabeth-warren/W000817"
+  },
+  {
+    "id": "john-fetterman", "type": "senator", "label": "John Fetterman",
+    "party": "democrat", "state": "PA", "religion": "Lutheran",
+    "committees": ["Agriculture", "Banking", "Environment"],
+    "born": 1969,
+    "info": "Top recipient of UDP/AIPAC funding in the 2022-2024 cycle. Strong pro-Israel voting record.",
+    "source": "https://www.congress.gov/member/john-fetterman/F000479"
+  },
+  {
+    "id": "mark-warner", "type": "senator", "label": "Mark Warner",
+    "party": "democrat", "state": "VA", "religion": "Presbyterian",
+    "committees": ["Intelligence", "Finance", "Banking"],
+    "born": 1954,
+    "info": "Former venture capitalist. Strong alignment with institutional financiers, including BlackRock-linked asset classes.",
+    "source": "https://www.congress.gov/member/mark-warner/W000805"
+  },
+  {
+    "id": "jacky-rosen", "type": "senator", "label": "Jacky Rosen",
+    "party": "democrat", "state": "NV", "religion": "Jewish",
+    "committees": ["Armed Services", "Commerce", "Homeland Security"],
+    "born": 1957,
+    "info": "Leads cybersecurity and pro-Israel tech initiatives. Consistent AIPAC alignment.",
+    "source": "https://www.congress.gov/member/jacquelyn-rosen/R000608"
+  },
+  {
+    "id": "jack-reed", "type": "senator", "label": "Jack Reed",
+    "party": "democrat", "state": "RI", "religion": "Catholic",
+    "committees": ["Armed Services", "Appropriations", "Banking"],
+    "born": 1949,
+    "info": "Armed Services Chairman. Most powerful senator on defense budget. Voted YEA on 2001 Afghanistan AUMF. RTX (Raytheon) top constituent employer.",
+    "source": "https://www.congress.gov/member/john-reed/R000122"
+  },
+  {
+    "id": "patty-murray", "type": "senator", "label": "Patty Murray",
+    "party": "democrat", "state": "WA", "religion": "Catholic",
+    "committees": ["Appropriations", "Health", "Budget"],
+    "born": 1950,
+    "info": "Appropriations Chair. Controls the literal flow of aid and defense money. Voted YEA Afghanistan AUMF 2001.",
+    "source": "https://www.congress.gov/member/patty-murray/M001111"
+  },
+  {
+    "id": "dick-durbin", "type": "senator", "label": "Dick Durbin",
+    "party": "democrat", "state": "IL", "religion": "Catholic",
+    "committees": ["Judiciary", "Appropriations", "Foreign Relations"],
+    "born": 1944,
+    "info": "Majority Whip. Voted YEA on 2001 Afghanistan AUMF. Significant influence on foreign aid appropriations.",
+    "source": "https://www.congress.gov/member/richard-durbin/D000563"
+  },
+  {
+    "id": "ron-wyden", "type": "senator", "label": "Ron Wyden",
+    "party": "democrat", "state": "OR", "religion": "Jewish",
+    "committees": ["Finance", "Intelligence", "Budget"],
+    "born": 1949,
+    "info": "Finance Committee Ranking Member. Voted YEA on 2001 Afghanistan AUMF. Key for taxing financial giants.",
+    "source": "https://www.congress.gov/member/ron-wyden/W000779"
+  },
+  {
+    "id": "maria-cantwell", "type": "senator", "label": "Maria Cantwell",
+    "party": "democrat", "state": "WA", "religion": "Catholic",
+    "committees": ["Commerce", "Finance", "Energy"],
+    "born": 1958,
+    "info": "Commerce Chair. Heavy focus on Boeing (WA-based). Voted YEA on 2002 Iraq AUMF.",
+    "source": "https://www.congress.gov/member/maria-cantwell/C000127"
+  },
+  {
+    "id": "susan-collins", "type": "senator", "label": "Susan Collins",
+    "party": "republican", "state": "ME", "religion": "Catholic",
+    "committees": ["Appropriations", "Intelligence", "Health"],
+    "born": 1952,
+    "info": "Voted YEA on 2002 Iraq AUMF. Appropriations powerhouse. Key for shipbuilding contracts (Bath Iron Works, ME).",
+    "source": "https://www.congress.gov/member/susan-collins/C001035"
+  },
+  {
+    "id": "chuck-grassley", "type": "senator", "label": "Chuck Grassley",
+    "party": "republican", "state": "IA", "religion": "Baptist",
+    "committees": ["Judiciary", "Finance", "Agriculture"],
+    "born": 1933,
+    "info": "Longest-serving GOP senator. Voted YEA on 2002 Iraq AUMF and 2001 Afghanistan AUMF.",
+    "source": "https://www.congress.gov/member/charles-grassley/G000386"
+  },
+  {
+    "id": "lindsey-graham", "type": "senator", "label": "Lindsey Graham",
+    "party": "republican", "state": "SC", "religion": "Baptist",
+    "committees": ["Appropriations", "Judiciary", "Budget"],
+    "born": 1955,
+    "info": "Foremost advocate for uncapped military aid. Major oil-lobby and defense-lobby recipient. Strong AIPAC alignment.",
+    "source": "https://www.congress.gov/member/lindsey-graham/G000359"
+  },
+  {
+    "id": "tom-cotton", "type": "senator", "label": "Tom Cotton",
+    "party": "republican", "state": "AR", "religion": "Methodist",
+    "committees": ["Armed Services", "Intelligence", "Banking"],
+    "born": 1977,
+    "info": "Defense hawk with close ties to defense-lobby nexus. Harvard Law, Army Ranger.",
+    "source": "https://www.congress.gov/member/tom-cotton/C001095"
+  },
+  {
+    "id": "marco-rubio", "type": "senator", "label": "Marco Rubio",
+    "party": "republican", "state": "FL", "religion": "Catholic",
+    "committees": ["Intelligence", "Foreign Relations", "Appropriations"],
+    "born": 1971,
+    "info": "Intelligence ranking member. Key for strategic aid and surveillance policy.",
+    "source": "https://www.congress.gov/member/marco-rubio/R000595"
+  },
+  {
+    "id": "ted-cruz", "type": "senator", "label": "Ted Cruz",
+    "party": "republican", "state": "TX", "religion": "Baptist",
+    "committees": ["Commerce", "Armed Services", "Foreign Relations"],
+    "born": 1970,
+    "info": "Top oil industry recipient ($445k+ from ExxonMobil). Strong Israel lobby and oil-defense nexus alignment.",
+    "source": "https://www.congress.gov/member/rafael-cruz/C001098"
+  },
+  {
+    "id": "john-cornyn", "type": "senator", "label": "John Cornyn",
+    "party": "republican", "state": "TX", "religion": "Church of Christ",
+    "committees": ["Finance", "Judiciary", "Intelligence"],
+    "born": 1952,
+    "info": "Finance and Judiciary. Key for lobby-legal frameworks. Top Chevron recipient in Texas.",
+    "source": "https://www.congress.gov/member/john-cornyn/C001056"
+  },
+  {
+    "id": "john-barrasso", "type": "senator", "label": "John Barrasso",
+    "party": "republican", "state": "WY", "religion": "Presbyterian",
+    "committees": ["Environment", "Foreign Relations", "Finance"],
+    "born": 1952,
+    "info": "Energy-Defense nexus leader. ExxonMobil key recipient from the biggest oil-producing state.",
+    "source": "https://www.congress.gov/member/john-barrasso/B001261"
+  },
+  {
+    "id": "roger-wicker", "type": "senator", "label": "Roger Wicker",
+    "party": "republican", "state": "MS", "religion": "Presbyterian",
+    "committees": ["Armed Services", "Commerce", "Foreign Relations"],
+    "born": 1951,
+    "info": "Armed Services Ranking Member. Controls the defense agenda. Major Northrop Grumman and Lockheed recipient.",
+    "source": "https://www.congress.gov/member/roger-wicker/W000437"
+  },
+  {
+    "id": "ben-cardin", "type": "senator", "label": "Ben Cardin",
+    "party": "democrat", "state": "MD", "religion": "Jewish",
+    "committees": ["Foreign Relations", "Finance", "Small Business"],
+    "born": 1943,
+    "info": "Former Foreign Relations Chair. Primary author of major Israel aid legislation.",
+    "source": "https://www.congress.gov/member/benjamin-cardin/C000141"
+  },
+  {
+    "id": "jim-risch", "type": "senator", "label": "Jim Risch",
+    "party": "republican", "state": "ID", "religion": "Catholic",
+    "committees": ["Foreign Relations", "Intelligence", "Energy"],
+    "born": 1943,
+    "info": "Foreign Relations Ranking Member. Authorizes all major international aid packages.",
+    "source": "https://www.congress.gov/member/james-risch/R000584"
+  },
+  {
+    "id": "dan-sullivan", "type": "senator", "label": "Dan Sullivan",
+    "party": "republican", "state": "AK", "religion": "Catholic",
+    "committees": ["Armed Services", "Commerce", "Foreign Relations"],
+    "born": 1964,
+    "info": "Armed Services and Foreign Relations. Key for Arctic military strategy and aid nexus.",
+    "source": "https://www.congress.gov/member/dan-sullivan/S001198"
+  },
+  {
+    "id": "dave-mccormick", "type": "senator", "label": "Dave McCormick",
+    "party": "republican", "state": "PA", "religion": "Catholic",
+    "committees": ["Armed Services", "Banking", "Veterans Affairs"],
+    "born": 1965,
+    "info": "Former Bridgewater Associates CEO. The direct personification of the Finance-Senate nexus.",
+    "source": "https://www.congress.gov/member/david-mccormick/M001232"
+  },
+  {
+    "id": "markwayne-mullin", "type": "senator", "label": "Markwayne Mullin",
+    "party": "republican", "state": "OK", "religion": "Christian",
+    "committees": ["Armed Services", "Environment", "Indian Affairs"],
+    "born": 1977,
+    "info": "Armed Services member. Rapidly becoming a top recipient of pro-Israel aid contributions.",
+    "source": "https://www.congress.gov/member/markwayne-mullin/M001190"
+  },
+  {
+    "id": "ron-johnson", "type": "senator", "label": "Ron Johnson",
+    "party": "republican", "state": "WI", "religion": "Lutheran",
+    "committees": ["Foreign Relations", "Homeland Security", "Commerce"],
+    "born": 1955,
+    "info": "Top recipient of pro-Israel bundled contributions. Strong AIPAC alignment.",
+    "source": "https://www.congress.gov/member/ron-johnson/J000293"
+  },
+  {
+    "id": "john-thune", "type": "senator", "label": "John Thune",
+    "party": "republican", "state": "SD", "religion": "Protestant",
+    "committees": ["Commerce", "Agriculture", "Finance"],
+    "born": 1961,
+    "info": "Majority Leader (2025). Key coordinator for corporate-legislative nexus.",
+    "source": "https://www.congress.gov/member/john-thune/T000250"
+  },
+  {
+    "id": "rand-paul", "type": "senator", "label": "Rand Paul",
+    "party": "republican", "state": "KY", "religion": "Presbyterian",
+    "committees": ["Foreign Relations", "Homeland Security", "Health"],
+    "born": 1963,
+    "info": "Vocal opponent of the aid-nexus and military interventionism. Voted NAY on multiple aid packages.",
+    "source": "https://www.congress.gov/member/rand-paul/P000603"
+  },
+  {
+    "id": "tim-kaine", "type": "senator", "label": "Tim Kaine",
+    "party": "democrat", "state": "VA", "religion": "Catholic",
+    "committees": ["Armed Services", "Foreign Relations", "Budget"],
+    "born": 1958,
+    "info": "Sits on Armed Services. Major defense hub in Virginia (Northrop, General Dynamics state presence).",
+    "source": "https://www.congress.gov/member/tim-kaine/K000384"
+  },
+  {
+    "id": "cory-booker", "type": "senator", "label": "Cory Booker",
+    "party": "democrat", "state": "NJ", "religion": "Baptist",
+    "committees": ["Foreign Relations", "Judiciary", "Commerce"],
+    "born": 1969,
+    "info": "Foreign Relations member with strong pro-Israel voting record.",
+    "source": "https://www.congress.gov/member/cory-booker/B001288"
+  },
+  {
+    "id": "adam-schiff", "type": "senator", "label": "Adam Schiff",
+    "party": "democrat", "state": "CA", "religion": "Jewish",
+    "committees": ["Judiciary", "Intelligence", "Rules"],
+    "born": 1960,
+    "info": "Heavy focus on intelligence and defense industry integration.",
+    "source": "https://www.congress.gov/member/adam-schiff/S001150"
+  },
+  {
+    "id": "chris-murphy", "type": "senator", "label": "Chris Murphy",
+    "party": "democrat", "state": "CT", "religion": "Congregationalist",
+    "committees": ["Foreign Relations", "Health", "Appropriations"],
+    "born": 1973,
+    "info": "Foreign Relations key member. Leading advocate for aid oversight. CT is home to Pratt & Whitney (RTX).",
+    "source": "https://www.congress.gov/member/christopher-murphy/M001169"
+  },
+  {
+    "id": "jon-ossoff", "type": "senator", "label": "Jon Ossoff",
+    "party": "democrat", "state": "GA", "religion": "Jewish",
+    "committees": ["Foreign Relations", "Banking", "Judiciary"],
+    "born": 1987,
+    "info": "Youngest senator. Foreign Relations focus. Strong pro-Israel alignment.",
+    "source": "https://www.congress.gov/member/jon-ossoff/O000174"
+  },
+  {
+    "id": "jim-banks", "type": "senator", "label": "Jim Banks",
+    "party": "republican", "state": "IN", "religion": "Christian",
+    "committees": ["Armed Services", "Veterans Affairs", "Banking"],
+    "born": 1979,
+    "info": "Armed Services hawk with deep contractor and lobby ties.",
+    "source": "https://www.congress.gov/member/jim-banks/B001299"
+  },
+  {
+    "id": "joni-ernst", "type": "senator", "label": "Joni Ernst",
+    "party": "republican", "state": "IA", "religion": "Lutheran",
+    "committees": ["Armed Services", "Agriculture", "Small Business"],
+    "born": 1970,
+    "info": "Armed Services. Leading voice for munitions and aid logistics.",
+    "source": "https://www.congress.gov/member/joni-ernst/E000295"
+  },
+  {
+    "id": "lisa-murkowski", "type": "senator", "label": "Lisa Murkowski",
+    "party": "republican", "state": "AK", "religion": "Catholic",
+    "committees": ["Appropriations", "Energy", "Indian Affairs"],
+    "born": 1957,
+    "info": "Appropriations. Controls the massive Alaska defense and oil budget.",
+    "source": "https://www.congress.gov/member/lisa-murkowski/M001153"
+  }
+]
