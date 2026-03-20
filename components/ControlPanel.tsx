@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Shield, Zap, Globe, DollarSign, Flame, Filter, RotateCcw, Search } from 'lucide-react';
+import { Shield, Zap, Globe, DollarSign, Flame, Filter, RotateCcw, Search, Users } from 'lucide-react';
 import { useIntelStore } from '@/lib/store';
 import type { GraphFilter } from '@/types/graph';
 import clsx from 'clsx';
@@ -18,6 +18,7 @@ const LAYERS: LayerButton[] = [
   { id: 'all', label: 'All Networks', icon: Globe, color: 'text-accent-blue', description: 'Full geopolitical network' },
   { id: 'war', label: 'War Legacy', icon: Flame, color: 'text-red-500', description: '2001–Present war authorizations' },
   { id: 'lobby', label: 'Israel / PAC Lobby', icon: Shield, color: 'text-accent-purple', description: 'AIPAC, UDP, JINSA flows' },
+  { id: 'bipartisan', label: 'Bipartisan Lobby', icon: Users, color: 'text-accent-purple', description: 'Lobbies connecting D & R' },
   { id: 'finance', label: 'Big Three', icon: DollarSign, color: 'text-accent-gold', description: 'BlackRock, Vanguard, State Street' },
   { id: 'oil', label: 'Oil & Energy', icon: Zap, color: 'text-accent-emerald', description: 'Petrodollar nexus' },
 ];

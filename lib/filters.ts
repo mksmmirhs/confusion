@@ -77,6 +77,30 @@ export function applyFilter(
             layerNodeIds.add(e.target);
           });
         break;
+      case 'bipartisan':
+        filteredNodes.forEach((n) => {
+          if (n.type === 'organization') {
+            const connectedSenatorIds = new Set<string>();
+            const connectedParties = new Set<string>();
+
+            edges.forEach((e) => {
+              if (e.source === n.id || e.target === n.id) {
+                const otherId = e.source === n.id ? e.target : e.source;
+                const otherNode = nodes.find((nod) => nod.id === otherId);
+                if (otherNode && otherNode.type === 'senator') {
+                  connectedSenatorIds.add(otherNode.id);
+                  connectedParties.add(otherNode.party);
+                }
+              }
+            });
+
+            if (connectedParties.has('democrat') && connectedParties.has('republican')) {
+              layerNodeIds.add(n.id);
+              connectedSenatorIds.forEach((id) => layerNodeIds.add(id));
+            }
+          }
+        });
+        break;
     }
 
     filteredNodes = filteredNodes.filter((n) => layerNodeIds.has(n.id));

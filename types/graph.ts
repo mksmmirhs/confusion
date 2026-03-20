@@ -93,7 +93,7 @@ export interface GraphFilter {
   party?: Party;
   war?: string;
   search?: string;
-  layer?: 'war' | 'oil' | 'lobby' | 'finance' | 'legacy' | 'all';
+  layer?: 'war' | 'oil' | 'lobby' | 'finance' | 'legacy' | 'bipartisan' | 'all';
 }
 
 // ── API Response ──────────────────────────────────────────────

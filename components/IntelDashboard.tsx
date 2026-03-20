@@ -94,7 +94,7 @@ export default function IntelDashboard() {
   }, [filter, setGraph, setLoading]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full overflow-hidden" style={{ height: 'calc(100vh - 48px)' }}>
       {/* Graph canvas — full screen background */}
       <div className="absolute inset-0">
         <Graph3D />

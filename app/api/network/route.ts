@@ -11,7 +11,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   const filter: GraphFilter = {};
 
   const layer = searchParams.get('layer');
-  if (layer && ['war', 'oil', 'lobby', 'finance', 'legacy', 'all'].includes(layer)) {
+  if (layer && ['war', 'oil', 'lobby', 'finance', 'legacy', 'bipartisan', 'all'].includes(layer)) {
     filter.layer = layer as GraphFilter['layer'];
   }
 

@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import NavBar from '@/components/NavBar';
 
 export const metadata: Metadata = {
-  title: 'Senate Intelligence Network | Geopolitical Analysis Platform',
+  title: 'US Senate Intelligence | American Power Encyclopedia',
   description:
-    'Visualizing relationships between US Senate members, wars (2001–2026), defense companies, oil companies, and lobbying organizations.',
-  keywords: ['senate', 'lobbying', 'defense', 'geopolitical', 'intelligence', 'network'],
+    'A comprehensive data-driven encyclopedia of how lobbying, defense contractors, oil money, and revolving-door officials have captured American democracy — and how to fix it.',
+  keywords: ['senate', 'lobbying', 'defense', 'geopolitical', 'intelligence', 'network', 'corruption', 'reform'],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -19,7 +20,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
