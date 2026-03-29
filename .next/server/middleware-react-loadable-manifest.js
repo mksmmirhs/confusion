@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components\\\\Graph3D.tsx -> react-force-graph-3d\":{\"id\":\"components\\\\Graph3D.tsx -> react-force-graph-3d\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_react-force-graph-3d_dist_react-force-graph-3d_mjs.js\"]},\"components\\\\IntelDashboard.tsx -> @/components/Graph3D\":{\"id\":\"components\\\\IntelDashboard.tsx -> @/components/Graph3D\",\"files\":[\"static/chunks/_app-pages-browser_components_Graph3D_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
