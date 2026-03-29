@@ -1,4 +1,4 @@
-// File: /home/naruto/Documents/USA/senate-map/app/lobby/page.tsx
+// File: D:\confusion\confusion\app\lobby\page.tsx
 import * as entry from '../../../../app/lobby/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

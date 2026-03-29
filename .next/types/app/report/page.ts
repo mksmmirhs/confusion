@@ -1,4 +1,4 @@
-// File: /home/naruto/Documents/USA/senate-map/app/report/page.tsx
+// File: D:\confusion\confusion\app\report\page.tsx
 import * as entry from '../../../../app/report/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

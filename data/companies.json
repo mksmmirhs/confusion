@@ -2,29 +2,29 @@
   {
     "id": "lockheed-martin", "type": "company", "label": "Lockheed Martin",
     "category": "defense",
-    "revenue": "$65.98B (2023)",
-    "info": "World's largest defense contractor. Primary F-35 maker. Received $75B in Pentagon contracts in 2020 alone. HIMARS producer for Ukraine. Iron Dome fire-control partner.",
+    "revenue": "$72B Pentagon Contracts (FY2023)",
+    "info": "World's largest defense contractor. Primary F-35 maker. Received $72B in Pentagon contracts in FY2023 alone. HIMARS producer for Ukraine. Iron Dome fire-control partner.",
     "source": "https://www.lockheedmartin.com/en-us/news/features/2023/2023-annual-report.html"
   },
   {
     "id": "boeing-defense", "type": "company", "label": "Boeing (Defense)",
     "category": "defense",
-    "revenue": "$22.1B defense (2023)",
+    "revenue": "$22.1B Pentagon Contracts (FY2023)",
     "info": "Supplies JDAM precision bombs and F-15 fighters to Israel. Major Ukraine contractor (ScanEagle drones, tankers). Top-5 Pentagon contractor.",
     "source": "https://www.boeing.com/company/key-facts"
   },
   {
     "id": "rtx-raytheon", "type": "company", "label": "RTX (Raytheon)",
     "category": "defense",
-    "revenue": "$68.9B (2023)",
-    "info": "Manufacturer of Iron Dome interceptors, Patriot missiles, ATACMS. Connecticut-based. Massive lobbying presence in DC ($15M/year). Ukraine's key Patriot supplier.",
+    "revenue": "$36B Pentagon Contracts (FY2023)",
+    "info": "Manufacturer of Iron Dome interceptors, Patriot missiles, ATACMS. Received $36B in Pentagon contracts in FY2023. Ukraine's key Patriot supplier.",
     "source": "https://www.rtx.com/news/news-center/2023/01/24/raytheon-missiles-defense"
   },
   {
     "id": "northrop-grumman", "type": "company", "label": "Northrop Grumman",
     "category": "defense",
-    "revenue": "$39.3B (2023)",
-    "info": "B-21 Raider bomber. Global security and space defense systems. Lobbied Congress for $116M in FY2024 contracts.",
+    "revenue": "$32B Pentagon Contracts (FY2023)",
+    "info": "B-21 Raider bomber. Received $32B in Pentagon contracts in FY2023. Lobbied Congress for $116M in FY2024 contracts.",
     "source": "https://www.northropgrumman.com/about/financials"
   },
   {
@@ -59,21 +59,21 @@
     "id": "blackrock", "type": "company", "label": "BlackRock",
     "category": "finance",
     "revenue": "AUM: $10T+ (2024)",
-    "info": "World's largest asset manager. Top shareholder in ALL major US defense contractors and oil majors. Significant political influence through institutional vote power.",
+    "info": "World's largest asset manager. Holds ~7-8% of Lockheed Martin. Manages money for millions of individual pensioners and ETF holders (the root source of capital). Top-3 shareholder in ~88% of S&P 500 companies.",
     "source": "https://www.blackrock.com/corporate/about-us"
   },
   {
     "id": "vanguard", "type": "company", "label": "Vanguard",
     "category": "finance",
     "revenue": "AUM: $8.1T (2024)",
-    "info": "Major shareholder in the US industrial base including Lockheed Martin, Boeing, ExxonMobil. Significant influence over corporate political spending.",
+    "info": "Major institutional giant. Holds ~9% of Lockheed Martin. Primarily manages client-owned funds (pension funds, retail investors) rather than proprietary money. Often the #1 or #2 shareholder in the entire US defense sector.",
     "source": "https://about.vanguard.com/investment-stewardship"
   },
   {
     "id": "state-street", "type": "company", "label": "State Street",
     "category": "finance",
     "revenue": "AUM: $3.9T (2024)",
-    "info": "Institutional giant. Holdings in aerospace, defense, and Israeli sovereign debt. Third member of the 'Big Three' passive investment giants.",
+    "info": "Third of the 'Big Three'. Holds ~14-15% of Lockheed Martin. Centralized financial influence layer holding shares on behalf of global investors. Essential component of the defense industry's institutional ownership structure.",
     "source": "https://www.ssga.com/us/en/intermediary/about-us"
   }
 ]

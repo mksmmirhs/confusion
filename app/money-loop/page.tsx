@@ -1,5 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+
+const InfluenceFlow = dynamic(() => import('@/components/InfluenceFlow'), {
+  ssr: false,
+});
 
 export const metadata: Metadata = {
   title: 'The Money Loop | How Donations Become Policy',
@@ -178,11 +183,47 @@ export default function MoneyLoopPage() {
             <span className="text-accent-blue">How Your Vote Becomes Their Profit</span>
           </h1>
           <p className="text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed">
-            This is not a conspiracy. It is a documented, self-reinforcing system where corporate profits
+            This is not a simple conspiracy. It is a documented, self-reinforcing system where ordinary
+            savings (pensions, ETFs, 401ks) flow through major asset managers into corporate profits, which
             fund political donations, which buy influence over legislation, which awards contracts,
             which generate more profits — and the loop tightens with every cycle.
-            Americans lose their voice at every step.
           </p>
+        </section>
+
+        {/* Administration Flow Analysis */}
+        <section className="bg-surface-1 border border-border rounded-2xl p-8">
+          <div className="max-w-3xl mx-auto space-y-8">
+            <div className="text-center mb-8">
+              <div className="inline-block font-mono text-[9px] text-accent-blue border border-accent-blue/30 bg-accent-blue/5 px-3 py-1 rounded mb-4 uppercase tracking-widest">
+                ⚖ Executive Flow Analysis
+              </div>
+              <h2 className="text-2xl font-bold font-mono">The Administration Layer</h2>
+              <p className="font-mono text-[10px] text-slate-500 mt-2 uppercase">How Administrative Policy Drives Global Asset Wealth</p>
+            </div>
+
+            <InfluenceFlow />
+
+            <div className="grid md:grid-cols-2 gap-8 pt-6 border-t border-border">
+              <div>
+                <h3 className="font-mono text-xs font-bold text-white mb-3 tracking-tight">Campaign Flow vs Direct Ownership</h3>
+                <p className="font-mono text-[11px] text-slate-400 leading-relaxed">
+                  U.S. law prevents direct corporate contributions to federal candidates. Instead, the administration 
+                  receives funding through <span className="text-accent-blue">Democratic PACs</span> and individual donors. 
+                  However, the structural alignment is created through <span className="text-amber-400">lobbying influence</span> (Lockheed ~$14M/yr, Boeing ~$12M/yr) 
+                  which steers defense budgets towards large-scale contracts.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-mono text-xs font-bold text-white mb-3 tracking-tight">Systemic Flow Reality</h3>
+                <p className="font-mono text-[11px] text-slate-400 leading-relaxed">
+                  When the administration approves record-high Pentagon budgets ($886B for FY23) and supplemental aid, the 
+                  Pentagon allocates contracts to the Big 5. These contractors pay dividends, which flow directly to the 
+                  top institutional shareholders: <span className="text-emerald-400">BlackRock, Vanguard, and State Street.</span> 
+                  The flow is a loop, not a linear payoff.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* The Loop Steps */}

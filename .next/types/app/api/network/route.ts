@@ -1,4 +1,4 @@
-// File: /home/naruto/Documents/USA/senate-map/app/api/network/route.ts
+// File: D:\confusion\confusion\app\api\network\route.ts
 import * as entry from '../../../../../app/api/network/route.js'
 import type { NextRequest } from 'next/server.js'
 
