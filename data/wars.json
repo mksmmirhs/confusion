@@ -46,17 +46,17 @@
   {
     "id": "ukraine-aid-2022",
     "type": "event",
-    "label": "Ukraine Aid (2022–Present)",
+    "label": "Ukraine Aid (2022–2025)",
     "startYear": 2022,
-    "info": "US military aid: $65B+ from 2022-2025. Massive windfall for Lockheed Martin, Raytheon (HIMARS, Patriot, ATACMS). Senate passed Ukraine supplemental 79-18 (April 2024).",
+    "info": "Total US authorized aid: $113 Billion+. Primary contractors: Lockheed Martin (HIMARS), Raytheon (Patriot), General Dynamics (Artillery). Secondary arms suppliers: Germany (€4.1B+), UK (Storm Shadow), France (€5.9B). Senate passed $61B supplemental in April 2024 (vote 79-18).",
     "source": "https://quincyinst.org/report/pentagon-contractors-ukraine"
   },
   {
     "id": "israel-aid-2023",
     "type": "event",
-    "label": "Gaza & Israel Aid (2023–Present)",
+    "label": "Gaza & Israel Supplemental (2023–2025)",
     "startYear": 2023,
-    "info": "US military aid to Israel: $18B+ in year after Oct 7, 2023. Annual baseline: $3.8B. Weapons: JDAM bombs (Boeing), artillery, iron dome interceptors (RTX). Senate passed $26B package April 2024.",
+    "info": "Total US emergency supplemental: $26.3 Billion (April 2024). Baseline annual aid: $3.8B. Primary weapons: JDAM bombs (Boeing), F-15s, Iron Dome interceptors (RTX). Secondary direct suppliers: Germany (€326M), Italy (Naval artillery), UK (F-35 components).",
     "source": "https://quincyinst.org/report/pentagon-contractors-israel"
   },
   {

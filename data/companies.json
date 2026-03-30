@@ -2,22 +2,27 @@
   {
     "id": "lockheed-martin", "type": "company", "label": "Lockheed Martin",
     "category": "defense",
-    "revenue": "$72B Pentagon Contracts (FY2023)",
-    "info": "World's largest defense contractor. Primary F-35 maker. Received $72B in Pentagon contracts in FY2023 alone. HIMARS producer for Ukraine. Iron Dome fire-control partner.",
+    "revenue": "$72B (FY2023)",
+    "stock_growth": "+32% since Feb 2022",
+    "conflict_systems": "HIMARS (Ukraine), F-35 (Israel/UK/Germany), Javelin",
+    "info": "World's largest defense contractor. Primary F-35 maker. Received $72B in Pentagon contracts in FY2023. Primary beneficiary of Ukraine artillery and HIMARS replenishment.",
     "source": "https://www.lockheedmartin.com/en-us/news/features/2023/2023-annual-report.html"
   },
   {
     "id": "boeing-defense", "type": "company", "label": "Boeing (Defense)",
     "category": "defense",
-    "revenue": "$22.1B Pentagon Contracts (FY2023)",
-    "info": "Supplies JDAM precision bombs and F-15 fighters to Israel. Major Ukraine contractor (ScanEagle drones, tankers). Top-5 Pentagon contractor.",
+    "revenue": "$24.9B (2023)",
+    "conflict_systems": "JDAM Kits (Israel), GBU-39 SDB, F-15IA (Israel)",
+    "info": "Supplies Small Diameter Bombs and JDAM precision kits to Israel. Awarded $18.8B F-15 contract for Israel in Aug 2024. Main shareholding held by the Big Three.",
     "source": "https://www.boeing.com/company/key-facts"
   },
   {
     "id": "rtx-raytheon", "type": "company", "label": "RTX (Raytheon)",
     "category": "defense",
-    "revenue": "$36B Pentagon Contracts (FY2023)",
-    "info": "Manufacturer of Iron Dome interceptors, Patriot missiles, ATACMS. Received $36B in Pentagon contracts in FY2023. Ukraine's key Patriot supplier.",
+    "revenue": "$36B (FY2023)",
+    "stock_growth": "+41% since Ukraine invasion",
+    "conflict_systems": "Patriot Missile (Ukraine), Iron Dome (Israel), NASAMS, ATACMS",
+    "info": "Manufacturer of Iron Dome interceptors and Patriot batteries. Ukraine's primary air defense provider. Massive profit surge from missile replenishment contracts ($4B+ since Oct 2023).",
     "source": "https://www.rtx.com/news/news-center/2023/01/24/raytheon-missiles-defense"
   },
   {
@@ -58,8 +63,9 @@
   {
     "id": "blackrock", "type": "company", "label": "BlackRock",
     "category": "finance",
-    "revenue": "AUM: $10T+ (2024)",
-    "info": "World's largest asset manager. Holds ~7-8% of Lockheed Martin. Manages money for millions of individual pensioners and ETF holders (the root source of capital). Top-3 shareholder in ~88% of S&P 500 companies.",
+    "revenue": "AUM: $10.6T (2025)",
+    "role": "The Control Layer",
+    "info": "World's largest asset manager. Holds ~8% of Lockheed Martin. Core infrastructure for Sovereign Wealth investment (Norway/Singapore/Kuwait) into US defense tech.",
     "source": "https://www.blackrock.com/corporate/about-us"
   },
   {

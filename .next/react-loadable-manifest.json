@@ -1,1 +1,8 @@
-{}
+{
+  "components\\SystemForceGraph.tsx -> react-force-graph-3d": {
+    "id": "components\\SystemForceGraph.tsx -> react-force-graph-3d",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-force-graph-3d_dist_react-force-graph-3d_mjs.js"
+    ]
+  }
+}

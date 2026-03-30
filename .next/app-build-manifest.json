@@ -10,6 +10,41 @@
       "static/chunks/main-app.js",
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
+    ],
+    "/power/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/power/page.js"
+    ],
+    "/lobby/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/lobby/page.js"
+    ],
+    "/money-loop/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/money-loop/page.js"
+    ],
+    "/revolving-door/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/revolving-door/page.js"
+    ],
+    "/report/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/report/page.js"
+    ],
+    "/prevention/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/prevention/page.js"
+    ],
+    "/analysis/system-graph/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/analysis/system-graph/page.js"
     ]
   }
 }
