@@ -44,14 +44,23 @@ export default function SystemForceGraph({ data, viewMode }: SystemGraphProps) {
 
   // Apply layout transformations based on viewMode
   const processedData = useMemo(() => {
-    const nodes = data.nodes.map(n => ({ ...n }));
+    const nodes = data.nodes.map(n => {
+      const node = { ...n };
+      // For Tree mode, we fix the Y coordinate to create a vertical hierarchy
+      if (viewMode === 'tree') {
+        if (node.group === 'country') (node as any).fy = -300;
+        if (node.group === 'finance') (node as any).fy = -100;
+        if (node.group === 'defense') (node as any).fy = 100;
+        if (node.group === 'government') (node as any).fy = 300;
+      } else {
+        // Reset fixed coordinates for other modes
+        delete (node as any).fx;
+        delete (node as any).fy;
+        delete (node as any).fz;
+      }
+      return node;
+    });
     const links = data.links.map(l => ({ ...l }));
-
-    if (viewMode === 'tree') {
-      // Logic for hierarchical layout could go here (e.g., setting fixed z levels)
-      // For now we rely on the force engine but could influence it with forces
-    }
-
     return { nodes, links };
   }, [data, viewMode]);
 
@@ -59,19 +68,21 @@ export default function SystemForceGraph({ data, viewMode }: SystemGraphProps) {
     if (fgRef.current) {
       // Adjust forces based on viewMode
       if (viewMode === 'loop') {
-        fgRef.current.d3Force('charge').strength(-250);
-        fgRef.current.d3Force('link').distance(200);
-      } else if (viewMode === 'tree') {
         fgRef.current.d3Force('charge').strength(-400);
-        fgRef.current.d3Force('link').distance(150);
+        fgRef.current.d3Force('link').distance(250);
+        fgRef.current.d3Force('center').strength(1);
+      } else if (viewMode === 'tree') {
+        fgRef.current.d3Force('charge').strength(-600);
+        fgRef.current.d3Force('link').distance(200);
+        fgRef.current.d3Force('center').strength(0.5);
       }
       
-      // Auto-center and zoom to fit
+      // Auto-center and zoom to fit with more padding
       setTimeout(() => {
-        fgRef.current.zoomToFit(600, 100);
-      }, 300);
+        fgRef.current.zoomToFit(800, 250);
+      }, 500);
     }
-  }, [viewMode, data]);
+  }, [viewMode, processedData]);
 
   return (
     <div className="w-full h-[700px] relative rounded-2xl overflow-hidden border border-white/10 bg-[#050505]">

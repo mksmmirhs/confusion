@@ -1,7 +1,7 @@
 {
-  "/lobby/page": "app/lobby/page.js",
-  "/page": "app/page.js",
   "/power/page": "app/power/page.js",
-  "/prevention/page": "app/prevention/page.js",
-  "/analysis/system-graph/page": "app/analysis/system-graph/page.js"
+  "/page": "app/page.js",
+  "/structure/page": "app/structure/page.js",
+  "/scams/page": "app/scams/page.js",
+  "/prevention/page": "app/prevention/page.js"
 }

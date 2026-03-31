@@ -1,0 +1,32 @@
+[
+  {
+    "year": "1973",
+    "event": "War Powers Resolution Passed",
+    "body": "Congress passes the War Powers Resolution of 1973 over President Nixon's veto. It requires the President to notify Congress within 48 hours of committing armed forces to military action and forbids armed forces from remaining for more than 60 days without a declaration of war or a specific authorization.",
+    "type": "legislative"
+  },
+  {
+    "year": "2001",
+    "event": "AUMF (Authorization for Use of Military Force)",
+    "body": "Passed by Congress on September 14, 2001. Authorizes the President to use 'all necessary and appropriate force' against those who planned, authorized, committed, or aided the September 11 attacks. This 60-word resolution has been used to justify military actions in ~20 countries since 2001.",
+    "type": "legislative"
+  },
+  {
+    "year": "2002",
+    "event": "Iraq AUMF",
+    "body": "Passed by Congress in October 2002. Authorizes the President to use the Armed Forces of the United States as he determines to be necessary and appropriate in order to: (1) defend the national security of the United States against the continuing threat posed by Iraq; and (2) enforce all relevant United Nations Security Council resolutions regarding Iraq.",
+    "type": "legislative"
+  },
+  {
+    "year": "2011",
+    "event": "Libya Military Intervention",
+    "body": "President Obama authorized military intervention in Libya without formal Congressional approval. He argued that the intervention did not constitute 'hostilities' under the War Powers Resolution. Congress eventually split on funding, but the mission continued.",
+    "type": "executive"
+  },
+  {
+    "year": "2024",
+    "event": "Red Sea Strikes (Action vs. Funding)",
+    "body": "President Biden authorizes strikes against Houthi rebels without formal Congressional approval, citing Article II powers to protect American interests. Congress continues to debate the specific authorization of these strikes while maintaining funding for the naval missions.",
+    "type": "executive"
+  }
+]

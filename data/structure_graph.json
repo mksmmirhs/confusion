@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    { "id": "executive", "name": "Executive Branch", "group": "government", "color": "#ef4444", "val": 30, "info": "President & Cabinet. Enforces laws, manages foreign policy, Commander-in-Chief." },
+    { "id": "legislative", "name": "Legislative Branch", "group": "government", "color": "#3b82f6", "val": 30, "info": "US Congress (Senate & House). Creates laws, declares war, controls funding." },
+    { "id": "judiciary", "name": "Judicial Branch", "group": "government", "color": "#10b981", "val": 25, "info": "Supreme Court & Lower Courts. Interprets laws, ensures constitutionality." },
+    
+    { "id": "president", "name": "President", "group": "executive", "color": "#f87171", "val": 20, "info": "Chief Executive. Can bypass Congress temporarily with Executive Orders." },
+    { "id": "senate", "name": "US Senate", "group": "legislative", "color": "#60a5fa", "val": 18, "info": "100 members. 6-year terms. Approves treaties and appointments." },
+    { "id": "house", "name": "House of Representatives", "group": "legislative", "color": "#60a5fa", "val": 18, "info": "435 members. 2-year terms. Originates all revenue bills." },
+    { "id": "scotus", "name": "Supreme Court", "group": "judiciary", "color": "#34d399", "val": 15, "info": "9 Justices. Life terms. Final word on legal disputes." },
+
+    { "id": "lobby", "name": "Lobby Groups", "group": "influence", "color": "#a855f7", "val": 22, "info": "AIPAC, NRA, PhRMA. Spends $3.7B+ annually to influence Congress.", "hidden": true },
+    { "id": "corps", "name": "Corporations", "group": "influence", "color": "#f59e0b", "val": 22, "info": "Defense Contractors (Lockheed, RTX) and Financial Giants (BlackRock).", "hidden": true }
+  ],
+  "links": [
+    { "source": "president", "target": "executive", "label": "Leads", "type": "structure" },
+    { "source": "senate", "target": "legislative", "label": "Part of", "type": "structure" },
+    { "source": "house", "target": "legislative", "label": "Part of", "type": "structure" },
+    { "source": "scotus", "target": "judiciary", "label": "Leads", "type": "structure" },
+
+    { "source": "legislative", "target": "executive", "label": "Check: Veto Override, Impeachment", "type": "check" },
+    { "source": "executive", "target": "legislative", "label": "Check: Veto, Executive Orders", "type": "check" },
+    { "source": "legislative", "target": "judiciary", "label": "Check: Confirmation, Impeachment", "type": "check" },
+    { "source": "judiciary", "target": "legislative", "label": "Check: Judicial Review", "type": "check" },
+    { "source": "executive", "target": "judiciary", "label": "Check: Appointments", "type": "check" },
+    { "source": "judiciary", "target": "executive", "label": "Check: Judicial Review", "type": "check" },
+
+    { "source": "lobby", "target": "senate", "label": "Funding & Influence", "type": "influence", "hidden": true },
+    { "source": "lobby", "target": "house", "label": "Funding & Influence", "type": "influence", "hidden": true },
+    { "source": "corps", "target": "house", "label": "Campaign Contributions", "type": "influence", "hidden": true },
+    { "source": "corps", "target": "senate", "label": "Campaign Contributions", "type": "influence", "hidden": true }
+  ]
+}

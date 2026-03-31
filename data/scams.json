@@ -1,0 +1,58 @@
+[
+  {
+    "id": "healthcare",
+    "title": "The Medical Markup Scam",
+    "icon": "🏥",
+    "category": "Healthcare",
+    "loss": "$300B - $500B annually",
+    "mechanism": [
+      { "step": "Upcoding", "desc": "Billing for more complex treatments than those actually provided." },
+      { "step": "Phantom Billing", "desc": "Charging for services or equipment never delivered to the patient." },
+      { "step": "Unbundling", "desc": "Billing individual components of a procedure separately to increase total cost." }
+    ],
+    "real_impact": "60% of all personal bankruptcies in the US are due to medical debt. Many families are 'fooled' into paying inflated prices for life-saving care.",
+    "color": "text-rose-400"
+  },
+  {
+    "id": "predatory-lending",
+    "title": "The Debt Trap / Predatory Lending",
+    "icon": "💸",
+    "category": "Finance",
+    "loss": "$8B+ in interest and fees annually",
+    "mechanism": [
+      { "step": "Bait-and-Switch", "desc": "Promising low rates but delivering high-interest loans at closing." },
+      { "step": "Payday Cycles", "desc": "Trap borrowers in a loop of high-interest renewals with 400%+ APR." },
+      { "step": "Equity Stripping", "desc": "Targeting homeowners with significant equity for loans they can't afford." }
+    ],
+    "real_impact": "Over 12 million Americans use payday loans annually, often losing their cars or homes to 'legal' predatory practices.",
+    "color": "text-amber-400"
+  },
+  {
+    "id": "military-overcharge",
+    "title": "Defense Overcharge / Price Gouging",
+    "icon": "🛠️",
+    "category": "Military",
+    "loss": "Estimated $100B+ in wasted taxpayer funds",
+    "mechanism": [
+      { "step": "Single-Source Monopoly", "desc": "Contractors like Lockheed or RTX charge 1000% markups on sole-source parts." },
+      { "step": "Double Billing", "desc": "Billing the government multiple times for the same research or labor." },
+      { "step": "Product Substitution", "desc": "Supplying substandard equipment while billing for premium military-grade hardware." }
+    ],
+    "real_impact": "The Pentagon recently failed its 6th audit in a row, unable to account for $3.8 trillion in assets, much of which is lost to overcharging.",
+    "color": "text-purple-400"
+  },
+  {
+    "id": "bailouts",
+    "title": "Socialized Losses / Bailout Culture",
+    "icon": "🏦",
+    "category": "Corporate",
+    "loss": "$700B (2008) + $4T (2020) in public funds",
+    "mechanism": [
+      { "step": "Risk Privatization", "desc": "Corporations take high risks to maximize private executive bonuses." },
+      { "step": "Loss Socialization", "desc": "When risks fail, the government uses taxpayer money to prevent 'systemic collapse'." },
+      { "step": "Policy Capture", "desc": "Ensuring lobbyists write 'too big to fail' rules." }
+    ],
+    "real_impact": "General people lose their life savings and homes while executives at 'Too Big to Fail' firms receive record bonuses after taking bailouts.",
+    "color": "text-emerald-400"
+  }
+]

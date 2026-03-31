@@ -3,13 +3,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Network, FileText, Eye, Shield, RepeatIcon, Landmark, Wrench, Menu, X, LayoutGrid } from 'lucide-react';
+import { Network, FileText, Eye, Shield, RepeatIcon, Landmark, Wrench, Menu, X, LayoutGrid, AlertTriangle } from 'lucide-react';
 import clsx from 'clsx';
 
 const NAV_LINKS = [
   { href: '/', label: 'Network', icon: Network, short: 'Map' },
-  { href: '/power', label: 'Power Structure', icon: Eye, short: 'Power' },
-  { href: '/analysis/system-graph', label: 'System Analysis', icon: LayoutGrid, short: 'System' },
+  { href: '/power', label: 'Power Pillars', icon: Eye, short: 'Pillars' },
+  { href: '/structure', label: 'System Structure', icon: LayoutGrid, short: 'Structure' },
+  { href: '/scams', label: 'Organizational Scams', icon: AlertTriangle, short: 'Scams' },
+  { href: '/analysis/system-graph', label: 'System Analysis', icon: Network, short: 'System' },
   { href: '/lobby', label: 'Lobby Encyclopedia', icon: Shield, short: 'Lobby' },
   { href: '/money-loop', label: 'Money Loop', icon: RepeatIcon, short: 'Money' },
   { href: '/revolving-door', label: 'Revolving Door', icon: Landmark, short: 'Door' },
