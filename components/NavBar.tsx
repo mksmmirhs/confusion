@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { href: '/lobby', label: 'Lobby Encyclopedia', icon: Shield, short: 'Lobby' },
   { href: '/money-loop', label: 'Money Loop', icon: RepeatIcon, short: 'Money' },
   { href: '/revolving-door', label: 'Revolving Door', icon: Landmark, short: 'Door' },
+  { href: '/power/pete-hegseth', label: 'Pete Hegseth', icon: Shield, short: 'Hegseth' },
   { href: '/report', label: 'War Report', icon: FileText, short: 'War' },
   { href: '/prevention', label: 'How to Fix It', icon: Wrench, short: 'Fix' },
 ];

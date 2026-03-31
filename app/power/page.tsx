@@ -242,6 +242,7 @@ export default function PowerPage() {
           <div className="grid md:grid-cols-3 gap-4">
             {[
               { href: '/lobby', label: '🎯 Lobby Encyclopedia', desc: 'Every major lobbying organization with amounts, targets, and results' },
+              { href: '/power/pete-hegseth', label: '🪖 Profile: Pete Hegseth', desc: '29th Secretary of Defense Case Study: From Fox News to the Pentagon' },
               { href: '/money-loop', label: '🔄 The Money Loop', desc: 'How donations become votes become contracts become donations' },
               { href: '/revolving-door', label: '🚪 Revolving Door', desc: 'Named officials moving between government and corporations' },
               { href: '/report', label: '📋 War Report', desc: 'War-by-war breakdown of costs, casualties, and beneficiaries' },

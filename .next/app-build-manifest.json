@@ -11,25 +11,25 @@
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
     ],
-    "/power/page": [
+    "/report/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/power/page.js"
+      "static/chunks/app/report/page.js"
     ],
-    "/structure/page": [
+    "/revolving-door/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/structure/page.js"
+      "static/chunks/app/revolving-door/page.js"
     ],
-    "/prevention/page": [
+    "/money-loop/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prevention/page.js"
+      "static/chunks/app/money-loop/page.js"
     ],
-    "/scams/page": [
+    "/power/pete-hegseth/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/scams/page.js"
+      "static/chunks/app/power/pete-hegseth/page.js"
     ]
   }
 }

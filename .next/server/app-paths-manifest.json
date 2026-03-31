@@ -1,7 +1,7 @@
 {
-  "/power/page": "app/power/page.js",
   "/page": "app/page.js",
-  "/structure/page": "app/structure/page.js",
-  "/scams/page": "app/scams/page.js",
-  "/prevention/page": "app/prevention/page.js"
+  "/report/page": "app/report/page.js",
+  "/revolving-door/page": "app/revolving-door/page.js",
+  "/power/pete-hegseth/page": "app/power/pete-hegseth/page.js",
+  "/money-loop/page": "app/money-loop/page.js"
 }
